@@ -1,0 +1,232 @@
+/*Estilos para la primer seccion PRESENTACION*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slide1{
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.slide1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/6985678.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; /* Posiciona el pseudoelemento detrás del contenido */
+    filter: blur(5px); /* Aplica el desenfoque */
+}
+
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1, .boton_inicio{
+    margin: 100px;
+}
+
+h1{
+    color: white;
+}
+
+h1:hover{
+    font-size: 2.5rem;
+    transition: 0.5s;
+}
+
+.boton_inicio{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    font-weight: 400;
+    border: white solid 1px;
+    background-color: rgba(250, 235, 215, 0);
+    color: white;
+}
+
+.boton_inicio:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    width: 320px;
+    height: 50px;
+}
+
+.presentacion{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+.name{
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.profesion{
+    font-weight: 200;
+}
+
+.avatar1{
+    width: 300px;
+    border-radius: 100%;
+    border: white solid 20px;
+}
+
+.avatar{
+    margin-top: 40px;
+}
+
+/*Estilos para la segunda seccion SOBRE MI*/
+
+.slide2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+
+.sobre_mi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo{
+    width: 25%;
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.redes_sociales{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.redes{
+    width: 60px;
+    margin-right: 60px;
+}
+
+.redes:hover{
+    width: 50px;
+    transition: 0.5s;
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.parrafo_Info1{
+    width: 25%;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 7%;
+}
+.hr00{
+    width: 80px;
+    border: 4px solid orange;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la tercera seccion EXPERIENCIA*/
+
+.slide3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 90vh;
+    background-color: darkblue; 
+    color: white; 
+}
+
+.experiencia {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%;
+}
+
+.informacion_exp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.parrafos_exp {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: start;
+    width: 30%; 
+    margin-top: 5%;
+}
+
+.boton_exp{
+    height: 40px;
+    width: 30%;
+    font-weight: 300;
+}
+
+.boton_exp:hover{
+    font-weight: 600;
+    transition: 1.5s                                                                                                                                                                                                                                                                                                                                            
+}
+
+.titulo2{
+    font-size: 3rem;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.parrafo_Info2{
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 7%;
+}
+
+.hr01{
+    width: 80px;
+    border: 4px solid orange;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}

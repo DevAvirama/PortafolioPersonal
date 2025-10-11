@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: black;
+    background-color: white;
+}
+
+
+/*ESTILOS PARA EL ENCABEZADO Y EL MENU*/
+
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+}
+
+h1{
+    width: 40%;
+    margin-left: 2%;
+    font-weight: 600;
+    transition: color 0.5s ease;
+    font-size: 3rem;
+}
+
+h1:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+nav{
+    width: 60%;
+    text-align: center;
+}
+
+.opciones_menu{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: 0.5s ease;
+    font-size: 1.2rem;
+}
+
+.opciones_menu:hover{
+    color: gray;
+}
+
+/*ESTILOS SECCION INFORMACION PERSONAL*/
+
+.informacionPersonal{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 80%;
+    background-color: #00004e;
+}
+
+#contenedor01{
+    width: 60%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#contenedorAvatar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacion{
+    width: 50%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.nombreProfesion{
+    font-size: 3rem;
+}
+
+#avatar{
+    width: 100%;
+}
+
+.nombreProfesion, .telefono, .email, .direccion, .estadoCivil{
+    margin-top: 20px;
+}
+
+/*ESTILOS SECCION SOBRE MI*/
+
+.sobremi{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 7rem;
+}
+
+#contenedorRS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background-color: #00004e;
+}
+
+.redesSociales{
+    width: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#presentacion h2{
+    font-size: 1.9rem;
+}
+
+
+#presentacion p{
+    width: 30%;
+    margin-top: 2%;
+    font-size: 1.3rem;
+}
+
+/*ESTILOS SECCION EXPERIENCIA Y FORMACION*/
+
+.seccionesPrincipales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.headers{
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: gray solid 1px;
+    border-top: gray solid 1px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.header hr{
+    color: gray;
+}
+
+
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 60%;
+    height: 100%;
+}
+
+.añoProfesion{
+    width: 50%;
+    text-align: center;
+}
+
+.empresaInstitucion{
+    width: 50%;
+    text-align: center;
+}
+
+.elementos{
+    height: 25vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*ESTILOS SECCION CLIENTES*/
+
+.logos-clientes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.clientes_logo{
+    width: 250px;
+}
+
+#genaro-sanchez{
+    width: 150px;
+}
+
+/*ESTILOS SECCION DE APTITUDES*/
+
+.aptitudes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apt-seccion{
+    width: 30%;
+}
+.select-apt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.icon-apt{
+    width: 7%;
+    margin-right: 3%;
+}
+
+/*ESTILOS SECCION DE AREAS PRACTICAS*/
+
+.areas-practica{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.practicas{
+    width: 40%;
+    background-color: #00004e93;
+    padding: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    border: #00004e solid 4px;
+}
+
+.practicas h3{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+/*ESTILOS SECCION DE CONTACTO */
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.cont-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.ult-info{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.ult-info h4{
+    margin-bottom: 5%;
+}
+
+.ult-info p{
+    margin-bottom: 5%;
+}
+
+.mi-email{
+    border-bottom: 1px gray solid;
+    margin-bottom: 5%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+#nombre-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#correo_electronico{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#mensaje{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#mensaje input{
+    height: 20vh;
+}
+
+.social-net{
+    width: 4%;
+    margin-right: 3%;
+    margin-top: 7%;
+}
+
+label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+button{
+    width: 30%;
+    margin: 5%;
+    height: 40px;
+    background-color: #00004e;
+    color: white;
+    font-weight: 600;
+}
+
+/*ESTILOS SECCION FOOTER*/
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-top: gray 1px solid;
+}
